@@ -1,0 +1,15 @@
+runtime: python311 # or another supported version
+
+instance_class: F2
+
+# Use 'global' for location if multi-region.
+# https://cloud.google.com/generative-ai-app-builder/docs/locations#specify_a_multi-region_for_your_data_store
+env_variables:
+  AGENT_ID: ""
+  FOLDER_ID: "1pimRK8veJxR5DPzKzoQitouWs-2OuTiZ"
+  BUCKET_NAME: "aicorpus"
+  PROJECT: "demodrivechatbot"
+  DATASTORE_ID: "demodriveaicorpus_1708134865649"
+  LOCATION: "us"
+
+
