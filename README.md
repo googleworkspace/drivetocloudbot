@@ -12,6 +12,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+Please note this tool will move files from Google Workspace and your Google Workspace terms of service to Google Cloud and the Google Cloud terms of service. Costs may be occured for use of [Google Cloud Storage](https://cloud.google.com/storage/pricing) and [Vertex AI](https://cloud.google.com/vertex-ai/pricing)
+
 This project creates an App Engine to operate periodically to check a Google Drive Folder and move content to Google Cloud storage for a Search and Conversation Chat bot to index on.
 
 1. Create a project
